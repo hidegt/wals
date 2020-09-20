@@ -6,20 +6,21 @@
 /* ヘッダー */
 header{
   height: 70px;
-  widows: 1240px;
+  width: 100%;
   background-color: #EC715F;
   position: relative;
 }
-/* ヘッダー左 */
-.header-title{
-  line-height: 70px;
+.head-nav{
+  width: 1240px;
 }
+/* ヘッダー左 */
 .header-title a{
   color: #FAFAFA;
   text-decoration: none;
 }
-.head-span{
-  font-size: 10px;
+.head-img{
+  height: 70px;
+  float: left;
 }
 /* ヘッダー右 */
 .head-ul{
@@ -53,8 +54,137 @@ header{
 }
 .main-h{
   padding-bottom: 10px;
-  font-size: 64 px;
+  font-size: 64px;
 }
 .main-p{
   font-size: 20px;
+}
+
+/* portfolio */
+#portfolio{
+  background-color: #eceff1;
+  width: 100%;
+}
+.section{
+  padding-top: 90px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.section-t{
+  font-size: 32px;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+}
+/* ポートフォリオ下ボーダー */
+.section-t:before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;/* 線の上下位置 */
+  display: inline-block;
+  width: 70px;/* 線の長さ */
+  height: 3px;/* 線の太さ */
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/* 位置調整 */
+  background-color: #EC715F;
+}
+.section-p{
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 920px;
+    margin: 0 auto;/* 真ん中にする */
+  }
+.photo1{
+  background-image: url(../img/sketch.jpg);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.photo2{
+  background-image: url(../img/webcamp.png);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.photo3{
+  background-image: url(../img/write.jpg);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.photo4{
+  background-image: url(../img/websuku.png);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.photo5{
+  background-image: url(../img/talk.jpg);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.photo6{
+  background-image: url(../img/webcamp-mother.png);
+  background-size: cover;
+  background-position:bottom;
+  height: 250px;
+  width: 300px;
+}
+.box{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box:nth-child(3){
+  margin-right: 0;
+}
+.box:nth-child(6){
+  margin-right: 0;
+}
+/* フューチャー */
+#feature{
+  width: 100%;
+}
+.feat-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0 auto;/* 真ん中にする */
+}
+.strength{
+  height: auto;
+  width: 320px;
+  margin-right: 10px;
+}
+.strength:last-child{
+  margin-right: 0;
+}
+.strength > .fas{
+  font-size: 60px;
+}
+.str-t{
+  margin: 10px auto 10px auto;
+  font-size: 20px;
+  color: #000000;
+}
+.str-p{
+  font-size: 16px;
+  color: #000000;
+}
+/* プロフィール */
+#profile{
+  background-color: #eceff1;
+  width: 100%;
 }
