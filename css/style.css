@@ -11,7 +11,8 @@ header{
   position: relative;
 }
 .head-nav{
-  width: 1240px;
+  width: 1024px;
+  margin: 0 auto;
 }
 /* ヘッダー左 */
 .header-title a{
@@ -187,4 +188,50 @@ header{
 #profile{
   background-color: #eceff1;
   width: 100%;
+}
+.prof-box{
+  width: 1024px;
+  display: flex;
+  margin: 0 auto;
+}
+.prof-img{
+  width: 512px;
+}
+img{
+	border-radius:50%;
+}
+.prof-name{
+  width: 512px;
+  display: inline-block;
+  text-align: left;
+}
+.prof-name h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.prof-name p{
+  font-size: 16px;
+  color: #000000;
+}
+.prof-p{
+  margin-bottom: 20px;
+}
+
+/* コンタクト */
+.contact{
+  width: 100%;
+}
+.con-box{
+  width: 800px;
+  margin: 0 auto;
+}
+.con-box h3{
+  font-size: 20px;
+}
+.mail{
+  width: 400px;
+}
+.con-icon{
+  width: 400px;
+  display: inline-block;
 }
