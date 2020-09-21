@@ -13,6 +13,7 @@ header{
 .head-nav{
   width: 1024px;
   margin: 0 auto;
+  display: flex;
 }
 /* ヘッダー左 */
 .header-title a{
@@ -21,7 +22,6 @@ header{
 }
 .head-img{
   height: 70px;
-  float: left;
 }
 /* ヘッダー右 */
 .head-ul{
@@ -29,6 +29,9 @@ header{
   position: absolute;
   right: 30px;
   top: 20px;
+}
+.bars-icon > .fas {
+  display: none;
 }
 .head-item{
   display: inline-block;
@@ -218,15 +221,17 @@ img{
 }
 
 /* コンタクト */
-.contact{
+#contact{
   width: 100%;
 }
 .con-box{
   width: 800px;
+  display: flex;
   margin: 0 auto;
 }
 .con-box h3{
   font-size: 20px;
+  margin-bottom: 5px;
 }
 .mail{
   width: 400px;
@@ -234,4 +239,22 @@ img{
 .con-icon{
   width: 400px;
   display: inline-block;
+}
+.mail-p{
+  margin-bottom: 20px;
+}
+.con-icon > .fab{
+  font-size: 50px;
+  margin-right: 20px;
+}
+/* フッター */
+footer{
+  background-color: #EC715F;
+  height: 60px;
+}
+footer > p{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
 }

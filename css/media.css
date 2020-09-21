@@ -1,0 +1,116 @@
+@media screen and (max-width:767px) {
+  header{
+    height: 50px;
+  }
+  .head-nav{
+    width: 90%;
+    margin: 0 5%;
+    display: flex;
+  }
+.head-img{
+  height: 50px;
+}
+.head-item{
+    display: none;
+  }
+  /* ハンバーガー */
+  .ham {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    bottom: 5px;
+    cursor: pointer;
+    border: #FAFAFA solid 1px;
+  }
+  .ham_line {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 1px;
+    background-color: #FAFAFA;
+  }
+  .ham_line1 {
+    top: 5px;
+  }
+  .ham_line2 {
+    top: 13px;
+  }
+  .ham_line3 {
+    top: 21px;
+  }
+  #top{
+    background-image: url(../img/code.png);
+    height: 650px;
+    width: 100%;
+    display: block;
+  }
+  .main{
+    width: 90%;
+    margin: auto 5%;
+  }
+  .main-h{
+    font-size: 40px;
+  }
+  .main-p{
+    font-size: 18px;
+  }
+  #portfolio{
+    width: 100%;
+    display: block;
+    padding: 0 5%;
+  }
+  .photo1,.photo3,.photo5{
+    display: none;
+  }
+  .photo2,.photo4,.photo6{
+    width: 300px;
+    height: 250px;
+  }
+  .section{
+    width: 90%;
+    margin: auto 5%;
+  }
+  .flex{
+    display: block;
+  }
+  #feature{
+    width: 100%;
+    padding: 0 5%;
+  }
+  .feat-box{
+    display: block;
+  }
+  .strength{
+    margin-bottom: 10px;
+  }
+  .strength:last-child{
+    margin-bottom: 0;
+  }
+/* 真ん中に行ってくれない */
+  #profile{
+    width: 100%;
+    padding: 0 5%;
+  }
+  .prof-box{
+    display: block;
+  }
+  .prof-img{
+    display: block;
+    text-align: center;
+    padding: 0 auto;
+  }
+  .prof-name{
+    display: block;
+    text-align: center;
+    padding: 0 auto;
+  }
+  /* 上記同様 */
+  #contact{
+    width: 100%;
+    padding: 0 5%;
+  }
+  .con-box{
+    display: block;
+    justify-content: center;
+  }
+}
